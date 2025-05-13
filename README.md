@@ -21,7 +21,7 @@ Advantages:
     You have something to demonstrate
     You have a better feel for progress
 
-
+Principe : rechercher les exigences les plus importantes, celles qui définissent le système, et les implémenter (à travers toutes les couches), sans implémenter le reste. Montrer le résultat à l'utilisateur et bien lui communiquer que ce qu'il voit n'est pas "mûr", pas fini.
 
 
 
