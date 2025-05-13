@@ -21,3 +21,10 @@ Advantages:
     You have something to demonstrate
     You have a better feel for progress
 
+
+
+
+
+
+
+<br/><br/>Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit www.pragmaticprogrammer.com. Copyright 2000 by Addison Wesley Longman, Inc.
