@@ -52,6 +52,28 @@ Principe : rechercher les exigences les plus importantes, celles qui définissen
     The diagonal line shows the path that feature takes through the code.
     To make the feature work, we need to just implement the solidly shaded areas in the diagram and the stuff with the squiggles will be done later.
 
+### Protype
+**Définition et élements :**
+<br/>Un prototype est un code jetable, fait pour tester une idée, ou pour montrer quelque chose sans toute la machinerie derrière (par ex : une maquette graphique).
+<br/>Tout ce qui appartient à ce que veut tester le prototype (et nous-mêmes !) est suffisamment élaborer pour **MONTRER** et/ou **EXPERIMENTER**.
+<br/>Tout ce qui est annexe, secondaire, mais parfois nécessaire est correct juste ce qu'il faut pour l'objectif précédent.
+<br/>Ex : une nouvelle fois, une maquette avec un ou des résumés de ... films disons, mais le résumé contient le texte que nous connaissons bien : le lorem ipsum !
+
+Par opposition au protoypage, si on a besoin de détails auxquels on ne peut renoncer, un syle de devb type "balles traçantes" est plus approprié.
+
+**Quels éléments prototyper ?**
+<br/>On peut créer des protoytpes pour :
+- tester/expérimenter une architecture
+- une nouvelle fonctionnalité dans un système existant
+- la structure et le contenu des données externes
+- les outils ou composants tiers
+- ...
+
+**Conclusion**
+<br/>Le prototypage est un expérience d'apprentissage. Sa valeur ne réside pas dans le code produit, mais dans les leçons apprise. C'est là tout l'intérêt du prototypage.
+<br/>*Note de moi-même : ne serait-ce point l'idée du **kata** ?*
+  
+
 
 
 <br/><br/>Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit www.pragmaticprogrammer.com. Copyright 2000 by Addison Wesley Longman, Inc.
