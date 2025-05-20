@@ -73,7 +73,12 @@ Par opposition au protoypage, si on a besoin de détails auxquels on ne peut ren
 <br/>Le prototypage est un expérience d'apprentissage. Sa valeur ne réside pas dans le code produit, mais dans les leçons apprise. C'est là tout l'intérêt du prototypage.
 <br/>*Note de moi-même : ne serait-ce point l'idée du **kata** ?*
   
-
-
+***
+## Chapitre 5 : Plier ou rompre
+### Découplage
+**Thème 28 : Enchainement de code** **/ Chainage de code**
+<br/><ins>Conseil 45 : Ne demandez pas, exigez</ins>
+<br/>Il n faut pas demander des infos à un objet pour ensuite le mettre à jour depuis l'extérieur.
+<br/>Cette connaissance est CELLE DE L'OBJET. *CAPICHE ??*
 
 <br/><br/>Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit www.pragmaticprogrammer.com. Copyright 2000 by Addison Wesley Longman, Inc.
