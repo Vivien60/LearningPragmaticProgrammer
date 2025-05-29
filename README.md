@@ -80,5 +80,23 @@ Par opposition au protoypage, si on a besoin de détails auxquels on ne peut ren
 <br/><ins>Conseil 45 : Ne demandez pas, exigez</ins>
 <br/>Il n faut pas demander des infos à un objet pour ensuite le mettre à jour depuis l'extérieur.
 <br/>Cette connaissance est CELLE DE L'OBJET. *CAPICHE ??*
+<br/>Ce principe, le principe NDPE, n'est pas une loi de la nature. On peut s'arrêter ici :
+```
+public void applyDiscount(customer, order_id, discount)
+{
+    customer
+        .findOrder(order_id)
+        .applyDiscount(discount);
+        
+}
+```
+Si on appliquait servilement/de manière dogmatique, il faudrait encore supprimer un chaïnon. Mais nous sommes satisfaits. 
+<br/>Pourquoi ?
+<br/>Parce que Order et Customer sont des concepts de haut niveau universels, que tout le monde comprend, du moins tout ceux qui dev et qui utilisent les produits développés.
+<br/>Il serait absurde de vouloir cacher qu'un Customer possède des Orders, et les Orders ont leur propre existence (un Order peut très bien être insancié seul, ou manipulé directement, le code utilisateur connait ce concept).
+
+On a donc aucun problème à créer des APIs qui exposent des commandes.
+
+_____
 
 <br/><br/>Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit www.pragmaticprogrammer.com. Copyright 2000 by Addison Wesley Longman, Inc.
