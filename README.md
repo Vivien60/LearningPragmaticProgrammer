@@ -97,11 +97,10 @@ Si on appliquait servilement/de manière dogmatique, il faudrait encore supprime
 
 On a donc aucun problème à créer des APIs qui exposent des commandes.
 
-_____
-Toujours réfléchir, en codant, à rendre le code réutilisable. Cela permettra de garder son interfae propre et son découplage optimal.
+
+_Toujours réfléchir, en codant, à rendre le code réutilisable. Cela permettra de garder son interface propre et son découplage optimal._
 
 **Thème 29 : Composer avec le monde réel**
-
 <ins>Machine à états finis / Finite State Machines</ins>
 
 ![events_simple_fsm](https://github.com/user-attachments/assets/08b5bd61-b7a9-4851-b471-ac899551adee)
