@@ -98,5 +98,27 @@ Si on appliquait servilement/de manière dogmatique, il faudrait encore supprime
 On a donc aucun problème à créer des APIs qui exposent des commandes.
 
 _____
+Toujours réfléchir, en codant, à rendre le code réutilisable. Cela permettra de garder son interfae propre et son découplage optimal.
+
+**Thème 29 : Composer avec le monde réel**
+
+<ins>Machine à états finis / Finite State Machines</ins>
+
+![events_simple_fsm](https://github.com/user-attachments/assets/08b5bd61-b7a9-4851-b471-ac899551adee)
+
+![event_simple_fsm_table](https://github.com/user-attachments/assets/e78bab68-5f05-4df2-b9ff-9fd7274e37f8)
+
+Le code qui gère l'automate :
+```
+TRANSITIONS = {
+    initial : {header : reading}
+    reading : {data : reading, trailer : done}
+}
+state := initial
+while state != :done && state != :error
+    msg = get_next_message()
+    state = TRANSITIONS[state][msg.msg_type] || :error
+```
+
 
 <br/><br/>Content from The Pragmatic Programmer, by Andrew Hunt and David Thomas. Visit www.pragmaticprogrammer.com. Copyright 2000 by Addison Wesley Longman, Inc.
